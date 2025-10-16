@@ -1,1 +1,86 @@
+body{
+    background-color: #124559;
+    color: #fff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin:0
+}
+#container{
+    width:800px;
+    margin:0 auto;
+    background-color: #598392;
+    padding:40px;
+    border-left:#fff solid 4px;
+    border-right:#fff solid 4px;
+}
+h1{
 
+    background-color: #124559;
+    border:#fff,solid,3px;
+    border-radius: 15px;
+    padding:20px;
+    /* margin-bottom: 30px; */
+    width:60%;
+    text-align: center;
+    margin:0px auto;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+    text-align: center;
+    font: size 1.23m;
+    font-style: italic;
+}
+h3{
+    border-left: double 20px #fff;
+    border-radius: 30px;
+    padding-left: 15px;
+}
+p{
+    line-height: 2.2em;
+}
+img{
+    float: right;
+    width:270px;
+    border: #fff solid 3px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+a:link{
+    color:#aec3b0;
+    text-decoration:none;
+    font-weight: bold;
+}
+a:visited{
+    color:#124559;
+}
+a:hover{
+    color:#b5d3e0;
+}
+a:active{
+    color:#eff6e0;
+}
+h3:hover{
+    border-color: #fff;
+}
+#pic1{
+    width:450px
+}
+#pic2{
+    float:left;
+    margin-left:0;
+    margin-right:20px;
+}
+#p2{
+    border:#fff dotted 2px;
+    padding:20px;
+    background-color: #618490;
+}
+/*CLASS RULE*/
+.highlight{
+    font-weight: bold;
+    background-color: #eff6e0;
+    padding:3px;
+    color:#000;
+}
+.highlight:hover{
+    background-color:#aec3b0
+}
